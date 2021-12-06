@@ -174,7 +174,7 @@ function PlasmicHome__RenderFunc(props: {
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "mobile")
-                      ? "Make your website"
+                      ? "Release the Krakyn"
                       : "Release the Krakyn"}
                   </div>
 
@@ -187,8 +187,8 @@ function PlasmicHome__RenderFunc(props: {
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "mobile")
-                      ? "wonderful"
-                      : "apps made easy"}
+                      ? "take the argh out of apps"
+                      : "take the argh out of apps"}
                   </div>
                 </div>
 
@@ -201,7 +201,7 @@ function PlasmicHome__RenderFunc(props: {
                   )}
                 >
                   {hasVariant(globalVariants, "screen", "mobile")
-                    ? "Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever."
+                    ? "If a pirate can do it, so can you!"
                     : "If a pirate can do it, so can you!"}
                 </div>
               </p.Stack>

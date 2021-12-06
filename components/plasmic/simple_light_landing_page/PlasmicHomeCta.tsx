@@ -122,7 +122,9 @@ function PlasmicHomeCta__RenderFunc(props: {
             sty.text__mmcE
           )}
         >
-          {"Take the argh out of apps.  Release the Krakyn."}
+          {hasVariant(globalVariants, "screen", "mobile")
+            ? "Take the argh out of apps.  Release the Krakyn."
+            : "Take the argh out of apps.  Release the Krakyn."}
         </div>
 
         <p.Stack
